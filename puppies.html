@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Puppies :)</title>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 20px 0;
+            background-color: #171717;
+            color: white;
+            font-family: 'Indie Flower', cursive;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .container {
+            /*background-color: #202020;*/
+            background: linear-gradient(#F6B439, #FCEE64, #7CCA36);
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 5px;
+            height: 100%;
+            /*box-shadow: 0 0 5px lightgrey;
+            border: 5px double #BB8FCE;*/
+            border-radius: 5px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .puppy {
+            margin: 5px;
+            border-radius: 5px;
+            background-color: rgba(146, 96, 52, 0.3);
+            flex: 1;
+        }
+
+        .puppy img {
+            max-width: 400px;
+            max-height: 200px;
+            padding: 0;
+            display: block;
+            margin: auto;
+            border-radius: 5px;
+        }
+
+        .puppy a {
+            padding-top: 0;
+            margin-top: 0;
+            font-size: 10px;
+            line-height: 0em;
+        }
+
+        #message1 {
+            position: absolute;
+            font-size: 13px;
+            top: 10px;
+            left: 10px;
+            color: #171717; 
+            max-width: 170px;
+        }
+
+        #message2 {
+            position: absolute;
+            font-size: 13px;
+            bottom: 10px;
+            right: 10px;
+            color: #171717; 
+            max-width: 170px;
+        }
+
+        #message1:hover {
+            color: white;
+        }
+
+        #message2:hover {
+            color: white;
+        }
+
+        @media all and (max-width: 1370px) {
+            #message1, #message2 {
+                visibility: hidden;
+            }
+        }
+    </style>
+
+    <body>
+        <h1>Puppies :)</h1>
+        <p>I thought I'd surprise you with something nice. :) Who doesen't like puppies?</p>
+        <p>Also, there's a couple hidden things on this page. Can you find them? (Hint: hover)</p>
+        <br>
+        <p id="message1">You are an amazing and valid human being - no matter who you are, no matter your race, no matter what gender you identify as, no matter what your sexuality is. Don't let anyone tell you otherwise, because you are beautiful and worth everything. Have a great day you amazing human being. :) &lt;3 &lt;3 &lt;3</p>
+        <div class="container">
+            <div class="puppy">
+                <img src="https://dogtime.com/assets/uploads/2011/03/puppy-development-1280x720.jpg">
+                <a href="https://dogtime.com/assets/uploads/2011/03/puppy-development-1280x720.jpg">https://dogtime.com/assets/uploads/2011/03/puppy-development-1280x720.jpg</a>
+            </div>
+            <div class="puppy">
+                <img src="https://www.purina.com.au/-/media/Project/Purina/Main/Breeds/Puppies/Puppy-Chihuahua/Puppy-Corgi.jpg">
+                <a href="https://www.purina.com.au/-/media/Project/Purina/Main/Breeds/Puppies/Puppy-Chihuahua/Puppy-Corgi.jpg">https://www.purina.com.au/-/media/Project/Purina/Main/Breeds/Puppies/Puppy-Chihuahua/Puppy-Corgi.jpg</a>
+            </div>
+            <div class="puppy">
+                <img src="https://www.abc.net.au/news/image/9339204-3x2-700x467.png">
+                <a href="https://www.abc.net.au/news/image/9339204-3x2-700x467.png">https://www.abc.net.au/news/image/9339204-3x2-700x467.png</a>
+            </div>
+            <div class="puppy">
+                <img src="https://i.pinimg.com/originals/52/09/a6/5209a6b3245dc3882ac9ce45e3f73a48.jpg">
+                <a href="https://i.pinimg.com/originals/52/09/a6/5209a6b3245dc3882ac9ce45e3f73a48.jpg">https://i.pinimg.com/originals/52/09/a6/5209a6b3245dc3882ac9ce45e3f73a48.jpg</a>
+            </div>
+            <div class="puppy">
+                <img src="https://static.scientificamerican.com/sciam/cache/file/D059BC4A-CCF3-4495-849ABBAFAED10456_source.jpg?w=590&h=800&526ED1E1-34FF-4472-B348B8B4769AB2A1">
+                <a href="https://static.scientificamerican.com/sciam/cache/file/D059BC4A-CCF3-4495-849ABBAFAED10456_source.jpg?w=590&h=800&526ED1E1-34FF-4472-B348B8B4769AB2A1">https://static.scientificamerican.com/sciam/cache/file/D059BC4A-CCF3-4495-849ABBAFAED10456_source.jpg?w=590&h=800&526ED1E1-34FF-4472-B348B8B4769AB2A1</a>
+            </div>
+            <div class="puppy">
+                <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12193133/German-Shepherd-Puppy-Fetch.jpg">
+                <a href="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12193133/German-Shepherd-Puppy-Fetch.jpg">https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12193133/German-Shepherd-Puppy-Fetch.jpg</a>
+            </div>
+            <div class="puppy">
+                <img src="https://dogtime.com/assets/uploads/2016/09/husky-5-1280x720.jpg">
+                <a href="https://dogtime.com/assets/uploads/2016/09/husky-5-1280x720.jpg">https://dogtime.com/assets/uploads/2016/09/husky-5-1280x720.jpg</a>
+            </div>
+            <div class="puppy">
+                <img src="https://thehappypuppysite.com/wp-content/uploads/2018/04/when-can-puppies-go-outside-header.jpg">
+                <a href="https://thehappypuppysite.com/wp-content/uploads/2018/04/when-can-puppies-go-outside-header.jpg">https://thehappypuppysite.com/wp-content/uploads/2018/04/when-can-puppies-go-outside-header.jpg</a>
+            </div>
+            <div class="puppy">
+                <img src="https://i.pinimg.com/originals/e5/d7/e0/e5d7e0dd5dc3b5925b4f59438e1a4dca.jpg">
+                <a href="https://i.pinimg.com/originals/e5/d7/e0/e5d7e0dd5dc3b5925b4f59438e1a4dca.jpg">https://i.pinimg.com/originals/e5/d7/e0/e5d7e0dd5dc3b5925b4f59438e1a4dca.jpg</a>
+            </div>
+            <div class="puppy">
+                <img src="https://www.penfieldvet.com/images/puppyv.jpg">
+                <a href="https://www.penfieldvet.com/images/puppyv.jpg">https://www.penfieldvet.com/images/puppyv.jpg</a>
+            </div>
+            <p id="message2">Have you accepted my compliments? <br>Wait, you haven't? How? Why? <u>You</u> are literally the definition of beauty and amazingness and perfection and everything good. Accept my compliments now, or I'll be forced to find you and give you all the compliments in the world until you realise how amazing you are. <br><u>This is a threat.</u></p>
+        </div>
+    </body>
+</html>
